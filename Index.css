@@ -1,0 +1,251 @@
+/*resetear margenes y padding*/
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --background-color:#05054b
+   
+}
+
+body {
+    margin:0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+    
+	
+   
+
+}
+
+
+
+.header {
+    
+    
+    display: flex;
+    padding: 20px;
+
+}
+
+    
+
+.nav {
+
+    list-style: none;
+    display: flex ;
+    align-items: center;
+    gap: 120px; 
+    font-size: 25px ;
+    margin: 20px;
+   
+
+
+}
+
+.main {
+
+    display: flex;
+    background-color: var(--background-color);
+    color: aliceblue;
+    
+
+    
+}
+
+.form {
+
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    margin: 20px;
+    line-height: 50px;
+    
+   
+}
+
+h1 {
+
+    text-align: center;
+    
+}
+
+#object {
+
+    text-align: center;
+}
+
+#engineer {
+
+    text-align: center;
+   
+    font-size: 18px;
+}
+
+
+
+
+
+h2 {
+
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    font-size: 30px;
+    
+}
+
+
+
+
+.services {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    column-gap: 30px;
+    display: grid;
+    grid-template-columns: 210px 250px 210px;
+    grid-template-rows: 450px;
+   
+ 
+}
+
+.electrical,.telecommunication,.electronicSafe{
+    box-shadow: 0px 0px 32px var(--background-color);
+     
+    border-radius: 5px;
+    display: grid;
+    
+   
+    
+    
+   
+}
+#electricalLogo,#telecommunicationLogo,#electronicSafeLogo{
+
+    border-radius: 5px;
+    align-content: center;  
+    
+}
+
+.TypeList {
+
+    list-style:
+    font-size: 15px;
+    padding:20px;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;
+}
+
+
+.customers {
+
+    display: flex;
+    justify-content:space-around;
+    margin: 50px;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 450px;
+    
+}
+
+.CardMontolivo,.CardSomatec,.Cardcnv{
+    box-shadow: 0px 0px 32px var(--background-color);
+    
+    border-radius: 10px;
+    display: grid;
+    
+ 
+   
+}
+
+#SomatecLogo,#cnvoLogo,#MontolivoLogo {
+
+    border-radius: 5px;
+    
+  
+    
+    
+
+
+}
+
+#cnvoLogo {
+    background-color: #ea0029;
+
+}
+
+.Descripcion {
+
+    font-size: 15px;
+    
+    
+}
+
+.about {
+
+    margin: 15px;
+    
+}
+
+.customerFoto {
+
+    margin: 10px;
+   
+
+}
+
+.opinion {
+
+    display: flex;
+    margin-top: 20px;
+}
+
+.foto {
+
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.informationCustumer {
+
+   margin: 7px;
+   font-size: 13px;
+   font-weight:bold;
+}
+
+.comment {
+
+    font-style: italic;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+   
+
+    
+    
+
+
+
