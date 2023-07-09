@@ -1,5 +1,5 @@
 #proyecto1 
 
-Este proyecto es el acerca de la pagina web de ingenieria electrica
+Es una landig page acerca de una empresa propia que ofrecer servicios de ingenieria 
 
-![x Descripcion](./asset/logo.PNG)
+![x Descripcion](./asset/Gedeteg.drawio))
