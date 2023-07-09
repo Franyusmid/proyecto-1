@@ -235,6 +235,23 @@ h3 {
     font-style: italic;
 }
 
+.footer {
+
+    width: auto;
+    height: 500px;
+}
+
+.logosRedes {
+
+    display: flex;
+    margin-top: 50px;
+    column-gap: 10px;
+    box-sizing: 50px;
+    
+   
+    
+}
+
 
 
 
